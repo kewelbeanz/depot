@@ -1,8 +1,11 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
 begin
   load File.expand_path("../spring", __FILE__)
 rescue LoadError
 end
+=======
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
 require_relative '../config/boot'
 require 'rake'
 Rake.application.run

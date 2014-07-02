@@ -2,3 +2,7 @@
 
 # Add new mime types for use in respond_to blocks:
 # Mime::Type.register "text/richtext", :rtf
+<<<<<<< HEAD
+=======
+# Mime::Type.register_alias "text/html", :iphone
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
