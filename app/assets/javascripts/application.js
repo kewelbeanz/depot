@@ -11,6 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+//= require jquery.ui.effect-blind
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .

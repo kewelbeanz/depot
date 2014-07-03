@@ -1,8 +1,17 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
 begin
   load File.expand_path("../spring", __FILE__)
 rescue LoadError
 end
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
 APP_PATH = File.expand_path('../../config/application',  __FILE__)
 require_relative '../config/boot'
 require 'rails/commands'

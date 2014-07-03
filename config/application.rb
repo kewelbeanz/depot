@@ -4,9 +4,21 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+<<<<<<< HEAD
 Bundler.require(*Rails.groups)
 
 module Socialnetwork
+=======
+<<<<<<< HEAD
+Bundler.require(*Rails.groups)
+
+module Socialnetwork
+=======
+Bundler.require(:default, Rails.env)
+
+module Depot
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

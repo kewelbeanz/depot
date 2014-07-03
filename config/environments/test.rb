@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 Rails.application.configure do
+=======
+<<<<<<< HEAD
+Rails.application.configure do
+=======
+Depot::Application.configure do
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's
@@ -14,7 +22,15 @@ Rails.application.configure do
 
   # Configure static asset server for tests with Cache-Control for performance.
   config.serve_static_assets  = true
+<<<<<<< HEAD
   config.static_cache_control = 'public, max-age=3600'
+=======
+<<<<<<< HEAD
+  config.static_cache_control = 'public, max-age=3600'
+=======
+  config.static_cache_control = "public, max-age=3600"
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
@@ -33,7 +49,16 @@ Rails.application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+<<<<<<< HEAD
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+=======
+<<<<<<< HEAD
+
+  # Raises error for missing translations
+  # config.action_view.raise_on_missing_translations = true
+=======
+>>>>>>> d0d8a1497c2dcf032c7b99dc6725b720a03fcc10
+>>>>>>> 3b8d05545cb757661d5e21acc60c506bd59ab3a4
 end
